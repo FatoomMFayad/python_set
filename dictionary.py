@@ -13,4 +13,4 @@ unique_tokens = set(tokens)
 dict = {}
 for token in unique_tokens:
     dict[token] = tokens.count(token)
-print(dict)
+    print('"', token, '"', ':',dict[token])
